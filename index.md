@@ -43,9 +43,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zqOmqJU-2L8?si=pFscHRa0l2a0jrZ6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+first milestone youtube video
 
-My starter project was the calculator. This project both challenged me and made me learn a lot about enginnering. I needed skills such as soldering, desoldering, and using the multimeter to make the calculator. I struggled on what to do because there were no instructions. For example, the frame of the calculator could not fit the hardware, so I had to rearrange the frame to fit it. Next, I will be starting the Phone-Controlled Robotic Arm.
+first milestone stuff
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -82,4 +82,6 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zqOmqJU-2L8?si=pFscHRa0l2a0jrZ6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+My starter project was the calculator. This project both challenged me and made me learn a lot about enginnering. I needed skills such as soldering, desoldering, and using the multimeter to make the calculator. I struggled on what to do because there were no instructions. For example, the frame of the calculator could not fit the hardware, so I had to rearrange the frame to fit it. Next, I will be starting the Phone-Controlled Robotic Arm.
