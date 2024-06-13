@@ -1,5 +1,5 @@
 # Phone-Controlled Robotic Arm
-The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project. ``` You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! ```
+The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project. <!-- You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 
 
