@@ -7,7 +7,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 |:--:|:--:|:--:|:--:|
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
 
-
+<!--
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
@@ -40,7 +40,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 -->
-
+<!--
 # First Milestone
 
 first milestone youtube video
@@ -54,6 +54,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -81,7 +82,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-```
+-->
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zqOmqJU-2L8?si=pFscHRa0l2a0jrZ6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
