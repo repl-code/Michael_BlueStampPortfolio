@@ -1,7 +1,6 @@
 # Phone-Controlled Robotic Arm
 The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project. ``` You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! ```
 
-```
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -12,6 +11,8 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
+
+<!--
   
 # Final Milestone
 
@@ -38,6 +39,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
+-->
 
 # First Milestone
 
