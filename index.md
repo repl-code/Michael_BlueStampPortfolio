@@ -1,7 +1,7 @@
 # Phone-Controlled Robotic Arm
-This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project. ``` You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! ```
 
-``` You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+```
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
