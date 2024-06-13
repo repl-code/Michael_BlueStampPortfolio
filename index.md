@@ -85,6 +85,6 @@ One of the best parts about Github is that you can view how other people set up 
 -->
 # Starter Project
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zqOmqJU-2L8?si=pFscHRa0l2a0jrZ6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9XJgiP5lbAM?si=RNG3RObgSUzBcW8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 My starter project was the calculator. This project both challenged me and made me learn a lot about enginnering. I needed skills such as soldering, desoldering, and using the multimeter to make the calculator. I struggled on what to do because there were no instructions. For example, the frame of the calculator could not fit the hardware, so I had to rearrange the frame to fit it. Next, I will be starting the Phone-Controlled Robotic Arm.
