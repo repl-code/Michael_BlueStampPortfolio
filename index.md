@@ -7,7 +7,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 |:--:|:--:|:--:|:--:|
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
 [headstone image](headshot)
-<!--
+<!---
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
@@ -80,7 +80,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
--->
+--->
 # Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9XJgiP5lbAM?si=RNG3RObgSUzBcW8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
