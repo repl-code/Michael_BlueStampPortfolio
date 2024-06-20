@@ -6,7 +6,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
-[headstone image](headshot)
+[headstone image](Local\Arduino15\libraries\)
 <!---
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
