@@ -7,7 +7,9 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 |:--:|:--:|:--:|:--:|
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
 [headstone image](Michael_T(1).heic) 
+
 <!---
+
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
@@ -37,6 +39,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
+
 -->
 
 
