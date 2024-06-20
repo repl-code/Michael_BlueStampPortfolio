@@ -6,7 +6,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
-[headstone image](Local\Arduino15\libraries\)
+[headstone image](Michael_T(1).heic)
 <!---
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -45,10 +45,10 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aQ3g7442gqI?si=GySozU9xW-lcDUYO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 first milestone stuff (wip)
-<!---
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
+# Schematics 
+[schematic](wiringdiagram.pdf)
+<!---
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
