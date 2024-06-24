@@ -5,7 +5,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore
+| Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore |
 [headstone image](Michael_T(1).heic) 
 
 <!---
@@ -51,7 +51,9 @@ first milestone stuff (wip)
 
 # Schematics 
 [schematic](wiringdiagram.pdf)
+
 <!---
+
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
@@ -85,6 +87,7 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 -
+
 -->
 
 # Starter Project
