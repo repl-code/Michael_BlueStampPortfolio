@@ -34,12 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
+I had many, many challenges for this milestone. The code provided to control the arm with the joysticks did not work, even after spending many hours trying to debug it. I had several errors preventing the program from even starting, such as exit status 1 and my Arduino nano board not responding. I found out one of the servos broke too, probably from the program having the arm spin around and pulling the wire too hard. I decided to completely redo my code for the joystsicks to control the arm. My code also had many bugs I had to work on, such as unoptimized code, malfunctioning joystick inputs. I had many difficulties reaching this milestone, but I am glad I learned a lot from it.
 -->
 
 
@@ -47,7 +42,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aQ3g7442gqI?si=GySozU9xW-lcDUYO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-first milestone stuff (wip)
+My first milestone was contructing the frame of the arm. The building process was rocky at first. I was missing a bag of screws that were vital for many of the joints, but luckily Bluestamp had the same size screw. I also accidentally broke a piece while trying to insert a bearing into one of the parts of the arm.  
 
 # Schematics 
 [schematic](wiringdiagram.pdf)
