@@ -1,5 +1,5 @@
 # Phone-Controlled Robotic Arm
-The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project. <!-- You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
+The robotic arm is an amazing introduction to the world of robotics and engineering. I learned both important engineering skills and important coding skills to complete this project.<!-- You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
 
 
 
@@ -42,7 +42,7 @@ I had many, many challenges for this milestone. The code provided to control the
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aQ3g7442gqI?si=GySozU9xW-lcDUYO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My first milestone was contructing the frame of the arm. The building process was rocky at first. I was missing a bag of screws that were vital for many of the joints, but luckily Bluestamp had the same size screw. I also accidentally broke a piece while trying to insert a bearing into one of the parts of the arm, but I was able to fix it with tape after a couple of tries. 
+My first milestone was contructing the frame of the arm. I installed the Arduino Nano board and the base of the arm to the base board. I attached all 4 servos to the chasis, the 2 joints, and the claw. The building process was rocky at first. I was missing a bag of screws that were vital for many of the joints, but luckily Bluestamp had the same size screw. I also accidentally broke a piece while trying to insert a bearing into one of the parts of the arm, but I was able to fix it with tape after a couple of tries. Despite all the inconveniences, this milestone went relatively smooth. 
 
 # Schematics 
 [schematic](wiringdiagram.pdf)
