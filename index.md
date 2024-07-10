@@ -29,15 +29,21 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
+# Third Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 -->
 
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6N0BU17_WHo?si=kGL2fw3Crfc0Hj9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I had many, many challenges for this milestone. The code provided to control the arm with the joysticks did not work, even after spending many hours trying to debug it. I had several errors preventing the program from even starting, such as exit status 1 and my Arduino nano board not responding. I found out all of the servos broke too, probably from the program having the arm spin around and pulling the wires too hard. The servos went so haywire that part of the structure broke. I had to superglue it to fix it.  My code also had many bugs I had to work on, such as unoptimized code, malfunctioning joystick inputs, and the nonresponding servos. My code determining which direction the servos should move could not work as well, and I solved this by redoing the entire code step by step. I learned to make sure that the code works for one of the servos instead of trying to code for all four at once. I had many difficulties reaching this milestone, but I am glad I learned a lot from it.
+I coded the servo to be able to be controlled by the joysticks on the controller. The joystick gave x and y outputs of 0-1000, but sometimes the range varied from 0-500 or 0-700. The Arduino would take the 4 joystick's default position's output and add a buffer of about 20 to make sure the servos did not move from a slight change of output. I also wired the DSD TECH HC-05 bluetooth module and connected to it to a test app I made in MIT app inventor. When I pressed the pin on button in the app, the phone would communicate with the Arduino on the serial monitor and configure the pin's output to high and buzz. I had many, many challenges for this milestone. The code provided to control the arm with the joysticks did not work, even after spending many hours trying to debug it. I had several errors preventing the program from even starting, such as exit status 1 and my Arduino nano board not responding. I found out all of the servos broke too, probably from the program having the arm spin around and pulling the wires too hard. The servos went so haywire that part of the structure broke as well I had to superglue the structure and replace all of the servos. My code also had many bugs I had to work on, such as unoptimized code, malfunctioning joystick inputs, and the nonresponding servos. My code determining which direction the servos should move could not work as well, and I solved this by redoing the entire code step by step. I learned to make sure that the code works for one of the servos instead of trying to code for all four at once. I had many difficulties reaching this milestone, but I am glad I learned a lot from it.
 
-#Code for Second Milestone 
+# Code for Second Milestone 
 
 ```
 #include <Servo.h> //servo library to control servos
