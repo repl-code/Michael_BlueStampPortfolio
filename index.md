@@ -46,6 +46,7 @@ I coded the servo to be able to be controlled by the joysticks on the controller
 # Code for Second Milestone 
 
 ```
+/*Controller Code for 4-Joint Robotic Arm by Michael Tzeng */
 #include <Servo.h> //servo library to control servos
 
 Servo myservoone; //establishing servos
