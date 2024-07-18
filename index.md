@@ -39,6 +39,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 '''
 
+/*Bluetooth Code for Phone-Controlled Robotic Arm by Michael Tzeng */
 #include <string.h>
 #include <Servo.h>
 #include <NeoSWSerial.h>
