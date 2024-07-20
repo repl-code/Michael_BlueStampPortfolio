@@ -17,7 +17,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 
 ![Headstone Image](logo.svg)
 
-# Final Milestone
+# Final Milestone / Modification
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -30,6 +30,325 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE\
 
 --->
+# Code for Final Milestone
+
+'''
+
+#include <string.h>
+#include <Servo.h>
+#include <NeoSWSerial.h>
+
+#define buzzerPin A0
+
+NeoSWSerial BTSerial(4,2);
+
+Servo myservoone; //establishing servos
+Servo myservotwo;
+Servo myservothree;
+Servo myservofour;
+
+int a1 = 0;
+int a2 = 1;
+int a3 = 2;
+int input;
+int i0;
+int i = 1;
+int i1 = 1;
+int i2 = 1;
+int i3 = 1;
+long duration;
+int distance = 0;
+
+const int trigPin = 5; //pin
+const int echoPin = 3;
+
+int xLchange = 0; //variable determines which way the servo will move
+int yLchange = 0;
+int xRchange = 0;
+int yRchange = 0;
+int servoangleone=90; //variable that is what the servo angle is programmed to be
+int servoangletwo = 90;
+int servoanglethree=90;
+int servoanglefour = 90;
+
+int x = 1; // oth variables
+unsigned int y;
+int x1 = 5;  //controls how great the servo will move
+int x2 = 5;
+int x3 = 5;
+int x4 = 5;
+
+void getinput() { //it gets the input from the serial monitor
+  if (BTSerial.available() >= 5) {
+    y = BTSerial.read();
+    if (y==255){
+    Serial.println("received");
+    i = (BTSerial.read());
+    i1 = (BTSerial.read());
+    i2 = (BTSerial.read());
+    i3 = (BTSerial.read());
+    }
+  }
+}
+
+void ultrasonicone() {
+  digitalWrite(trigPin, LOW);
+  // Sets the trigPin on HIGH state till end of the loop
+  digitalWrite(trigPin, HIGH);
+}
+
+void ultrasonictwo() {
+  digitalWrite(trigPin, LOW);
+  // Reads the echoPin, returns the sound wave travel time in microseconds
+  duration = pulseIn(echoPin, HIGH,100000);
+  // Calculating the distance
+  distance = duration;
+  // Prints the distance on the Serial Monitor
+  //Serial.print("Distance: ");
+  //Serial.println(distance);
+}
+
+void buzz() {
+  if (distance < 10 & distance > 0) {
+    tone(buzzerPin, 1000);
+    //Serial.println("buzzer on");
+  } else {
+    noTone(buzzerPin); 
+    //Serial.println("buzzer off");
+  }
+}
+
+void reset() {
+  xLchange = 0; 
+  yLchange = 0;
+  xRchange = 0;
+  yRchange = 0;
+  servoangleone=90; 
+  servoangletwo = 90;
+  servoanglethree=90;
+  servoanglefour = 90;
+  servomove();
+}
+
+void print() { 
+  //Serial.println()
+  
+  //Serial.println(y);
+  ///Serial.print(i);
+  Serial.print(i1);
+  //Serial.print(i2);
+  //Serial.println(i3);  
+
+  Serial.println(xLchange); 
+  Serial.println(servoangleone);
+  /*
+  Serial.print("yL");
+  Serial.print(yLchange);
+  Serial.print("xR");
+  Serial.print(xRchange);
+  Serial.print("yR");
+  Serial.print(yRchange); */
+}
+
+void  capinput() {
+  if (i == 255) {
+    i = 1;
+  }
+  if (i1 == 255) {
+    i1 = 1;
+  }
+  if (i2 == 255) {
+    i2 = 1;
+  }
+  if (i3 == 255) {
+    i3 = 1;
+  }
+
+  if (i > 2) {
+    i = 2;
+  }
+  if (i < 0) {
+    i = 0;
+  }
+  
+  if (i1 > 2) {
+    i1 = 2;
+  }
+  if (i1 < 0) {
+    i1 = 0;
+  }
+  
+  if (i2 > 2) {
+    i2 = 2;
+  }
+  if (i2 < 0) {
+    i2 = 0;
+  }
+  
+  if (i3 > 2) {
+    i3 = 2;
+  }
+  if (i3 < 0) {
+    i3 = 0;
+  }
+}
+
+void getchangedir() { //from getinput(), it determines the way which the servo will move based on the input
+  if (i == 5 || i1 == 5 || i2 == 5 || i3 == 5) {
+    reset();
+  }
+
+  if (i == a3) {
+    xLchange = 1;
+  } else if (i == a1) {
+    xLchange = -1;
+  } else {
+    xLchange = 0;
+  }
+
+  if (i1 == a3) {
+    yLchange = 1;
+  } else if (i1 == a1) {
+    yLchange = -1;
+  } else {
+    yLchange = 0;
+  }
+
+  if (i2 == a3) {
+    xRchange = 1;
+  } else if (i2 == a1) {
+    xRchange = -1;
+  } else {
+    xRchange = 0;
+  }
+
+  if (i3 == a3) {
+    yRchange = 1;
+  } else if (i3 == a1) {
+    yRchange = -1;
+  } else {
+    yRchange = 0;
+  }
+}
+
+void servomove() { //it moves the servos based on the int servoangle
+  myservoone.write(servoangleone);
+  
+  myservotwo.write(servoangletwo);
+
+  myservothree.write(servoanglethree);
+
+  myservofour.write(servoanglefour);
+  
+
+}
+
+void setservoangle(){ //using void getchangedir(), this changes where you want the servo to be
+  xLchange = xLchange * x1;
+  yLchange = yLchange * x2;
+  xRchange = xRchange * x3;
+  yRchange = yRchange * x4;
+
+  if (servoangleone + xLchange <= 175 && servoangleone + xLchange >= 5) {
+    servoangleone = servoangleone + xLchange;
+  }
+
+  if (servoangletwo + yLchange <= 175 && servoangletwo + yLchange >= 5) {
+    servoangletwo = servoangletwo + yLchange;
+  }
+
+  if (servoanglethree + xRchange <= 175 && servoanglethree + xRchange >= 5) {
+    servoanglethree = servoanglethree + xRchange;
+  }
+
+  if (servoanglefour + yRchange <= 95 && servoanglefour + yRchange >= 5) {
+    servoanglefour = servoanglefour + yRchange;
+  }
+}
+
+void capservoangle() { //its caps the servo angle so it is not told to go over 180 or under 0
+  if (servoangleone > 180){
+    servoangleone = 180;
+  }
+  if (servoangleone < 0) {
+    servoangleone = 0;
+  }
+
+  if (servoangletwo > 180){
+    servoangletwo = 180;
+  }
+  if (servoangletwo < 0) {
+    servoangletwo = 0;
+  }
+
+  if (servoanglethree > 180){
+    servoanglethree = 180;
+  }
+  if (servoanglethree < 0) {
+    servoanglethree = 0;
+  }
+
+  if (servoanglefour > 100){
+    servoangleone = 100;
+  }
+  if (servoanglefour < 0) {
+    servoanglefour = 0;
+  }
+}
+
+void setup() { //runs once, establishes serial monitor, servos, servo position irl
+  Serial.begin(9600); //serial/bluetooth monitor
+  BTSerial.begin(9600);
+  myservoone.attach(6); //servos establish
+  myservotwo.attach(7);
+  myservothree.attach(10);
+  myservofour.attach(11);
+  pinMode(trigPin, OUTPUT); // sets the trigPin as an output for ultrasonic sensor
+  pinMode(echoPin, INPUT); // sets the echoPin as an input for ultrasonic sensor
+  servomove(); //base position
+  
+  tone(buzzerPin, 1000);
+  delay(200);
+  noTone(buzzerPin);
+  delay(200);
+  tone(buzzerPin, 1000);
+  delay(200);
+  noTone(buzzerPin);
+  delay(200);
+  tone(buzzerPin, 1000);
+  delay(200);
+  noTone(buzzerPin);
+  delay(200);
+  x = 1;
+  Serial.println("ready");
+  Serial.println(x);
+  //while (BTSerial.available() == 0) {}
+}
+
+void loop() { //repeatedly checks inputs, determines the change dir, and updates the angles of the servos accordingly
+  //while (BTSerial.available() == 0) {}  
+  if (x == 0) {
+    ultrasonictwo();
+  } 
+  if (abs(distance) < 250 & abs(distance) > 0) {
+    tone(buzzerPin, 1000);
+    //Serial.println("buzzer on");
+  } else {
+    noTone(buzzerPin); 
+  }
+  getinput();
+  capinput();
+  getchangedir();
+  print();
+  setservoangle();
+  capservoangle();
+  servomove();
+  ultrasonicone();
+  x = 0;
+}
+
+'''
+
 
 # Third Milestone
 
