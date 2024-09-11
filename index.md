@@ -776,7 +776,9 @@ void loop() {
 
 ```
 
-
+# Wiring for Second Milestone
+The wiring was relatively simple. 
+<img src = "wiring diagram.pdf" alt = "wiring diagram" width = "320" height = "240" >
 
 # First Milestone
 
