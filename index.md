@@ -786,9 +786,6 @@ The wiring was relatively simple.
 
 My first milestone was contructing the frame of the arm. I installed the Arduino Nano board and the base of the arm to the base board. I attached all 4 servos to the chasis, the 2 joints, and the claw. The building process was rocky at first. I was missing a bag of screws that were vital for many of the joints, but luckily Bluestamp had the same size screw. I also accidentally broke a piece while trying to insert a bearing into one of the parts of the arm, but I was able to fix it with tape after a couple of tries. Despite all the inconveniences, this milestone went relatively smooth. 
 
-# Schematics 
-[schematic](wiringdiagram.pdf)
-
 <!---
 
 # Code
