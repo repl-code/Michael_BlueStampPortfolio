@@ -8,7 +8,7 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 | Michael T | Mission San Jose High School | Mechanical/Aerospace Engineering | Incoming Sophomore |
 
 
-<img src = "headshot.jpg" alt = "headshot" width = "320" height = "240" >
+<img src = "Michael_T (1).heic" alt = "headshot" width = "320" height = "240" >
 
 # Final Milestone / Modification
 
