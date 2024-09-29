@@ -11,9 +11,10 @@ The robotic arm is an amazing introduction to the world of robotics and engineer
 <img src = "Michael_T (1).heic" alt = "headshot" width = "320" height = "240" >
 
 # Final Milestone / Modification
-
+For my final modification, I add a HC-SR04 ultrasonic sensor and a passive buzzer to my arm. I coded the ultrasonic sensor to detect if an object is in range of the claw. This send a signal to the arduino board, which would have the buzzer buzz. I had several complications with this process. I put all my code in a constant loop, but the ultrasonic sensor required some time to gauge the distance before it came back with a result. This resulted in the arm having a delayed input of about one second. I wanted to decrease this time, so I changed the order of how the ultrasonic sensor sends and receives waves. This was the final milestone of the project, and I presented at Demo Night.
 
 # Code for Final Milestone
+
 '''
 
 #include <string.h>
